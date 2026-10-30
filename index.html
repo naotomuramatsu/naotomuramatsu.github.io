@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>LifeOS-Health</title><style>:root{--fg:#1f2328;--muted:#59636e;--bg:#fff;--line:#d1d9e0}
+@media (prefers-color-scheme:dark){:root{--fg:#e6edf3;--muted:#9198a1;--bg:#0d1117;--line:#3d444d}}
+body{font-family:-apple-system,"Hiragino Sans","Noto Sans JP",sans-serif;color:var(--fg);background:var(--bg);max-width:720px;margin:0 auto;padding:32px 16px;line-height:1.75}
+h1{font-size:1.6rem}h2{font-size:1.15rem;margin-top:2em;border-bottom:1px solid var(--line);padding-bottom:.2em}
+nav a{margin-right:1em}small,.muted{color:var(--muted)}a{color:#0969da}</style></head>
+<body>
+<nav><a href="index.html">LifeOS-Health</a><a href="privacy.html">プライバシーポリシー</a><a href="terms.html">利用規約</a></nav>
+<h1>LifeOS-Health</h1>
+<p>LifeOS-Health は、開発者本人だけが使う個人用のツールです。一般には公開・提供していません。</p>
+<h2>何をするか</h2>
+<p>Google Apps Script 上で動き、開発者本人の Google アカウントに保存されている健康データ（睡眠・安静時心拍・心拍変動・歩数）を、Google Health API から <strong>読み取り専用</strong> で取得します。取得したデータは日ごとに集計し、本人の Google ドライブ内のファイルに保存して、本人の予定管理ツールで体調の目安として使います。</p>
+<h2>しないこと</h2>
+<ul>
+<li>健康データの書き込み・変更・削除はしません（読み取り専用の権限だけを使います）。</li>
+<li>データを第三者に送信・共有・販売しません。</li>
+<li>本人以外の利用者を受け付けません。</li>
+</ul>
+<p class="muted"><small>English: LifeOS-Health is a personal, single-user tool run by its developer on Google Apps Script. It reads the developer's own sleep, resting heart rate, heart rate variability and step data from the Google Health API with read-only scopes, aggregates it per day, and stores it in the developer's own Google Drive. It does not write health data and does not share data with anyone.</small></p>
+</body></html>
